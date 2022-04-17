@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Akshar', sans-serif;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#596a72+0,cedce7+33 */
+  background: rgb(89, 106, 114);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(89, 106, 114, 1) 0%, rgba(206, 220, 231, 1) 33%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(89, 106, 114, 1) 0%, rgba(206, 220, 231, 1) 33%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(89, 106, 114, 1) 0%, rgba(206, 220, 231, 1) 33%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#596a72', endColorstr='#cedce7', GradientType=0);
+  /* IE6-9 */
+
+
+}
+
+section {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  /* float: left; */
+}
+
+aside {
+  width: 50%;
+  float: right;
+  padding: 10px;
+  padding-top: 50px;
+  margin: 0px;
+  height: 0px;
+  
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-style: groove;
+  /* border-collapse: collapse; */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a5c6d1+0,bed4de+37,cedee4+100 */
+  background: rgb(165, 198, 209);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(165, 198, 209, 1) 0%, rgba(190, 212, 222, 1) 37%, rgba(206, 222, 228, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(165, 198, 209, 1) 0%, rgba(190, 212, 222, 1) 37%, rgba(206, 222, 228, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(165, 198, 209, 1) 0%, rgba(190, 212, 222, 1) 37%, rgba(206, 222, 228, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5c6d1', endColorstr='#cedee4', GradientType=0);
+  /* IE6-9 */
+  border-radius: 10px;
+  padding: 5px;
+  
+}
+
+img {
+  border: 2px solid black;
+  box-shadow: 3px 3px 2px black;
+}
+
+h1 {
+  color: #800000;
+  text-shadow: 0 0 2px black;
+}
+
+h2 {
+  color: #800000;
+  /* border: 2px solid black; margin: 0px; */
+  text-shadow: 0 0 2px black;
+
+}
+
+h3 {
+  color: #800000;
+  text-shadow: 0 0 2px black;
+}
+
+h4 {
+  color: #800000;
+  text-shadow: 0 0 2px black;
+}
+
+ul {
+  font-style: italic;
+}
+
+ol {
+  font-style: italic;
+}
