@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background: rgb(171, 171, 171);
+    background: linear-gradient(0deg, rgba(171, 171, 171, 0.8239496482186625) 0%, rgba(224, 224, 224, 1) 30%, rgba(255, 255, 255, 1) 100%);
+}
+
+nav {
+    border: 0.5px solid black;
+}
+
+#Inicio {
+    margin: 100px auto 40px auto;
+}
+
+#Imagenes {
+    margin: 100px auto 40px auto;
+}
+
+#Tabla {
+    margin: 100px auto 40px auto;
+}
+
+#Contacto {
+    margin: 100px auto 40px auto;
+}
+
+#carouselExampleSlidesOnly {
+    border: 0.5px solid black;
+}
+
+#accordionFlushExample {
+    border: 0.5px solid black;
+}
