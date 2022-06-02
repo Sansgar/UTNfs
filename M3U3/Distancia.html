@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        distancia = prompt('Ingresar la distancia a recorrer en metros.', '');
+        distancia = parseInt(distancia);
+        if (distancia <= 1000) 
+            document.write('Medio correcto: a pie');
+        else
+            if (distancia <= 10000)
+                document.write('Medio correcto: bicicleta');
+            else
+                if (distancia <= 30000)
+                    document.write('Medio correcto: colectivo');
+                else
+                    if (distancia <= 100001)
+                        document.write('Medio correcto: auto');
+                    else
+                        document.write('Medio correcto: avion');
+    </script>
+</body>
+
+</html>

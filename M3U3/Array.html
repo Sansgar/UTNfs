@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        T = prompt('Por favor diga de que tamaño quiere sea el array','');
+        T = parseInt(T);
+        var ArrayMayor = new Array(T);
+        for (var i = 0; i < (ArrayMayor.length); i++){
+            ArrayMayor[i] = prompt('Por favor ingrese numero para el Array','');
+        }
+        var Mayor = ArrayMayor[0];
+        Mayor = parseInt(Mayor);
+        for (var i = 0; i < (ArrayMayor.length-1); i++){
+            var num2 = i+1;
+            num2 =parseInt(num2);
+            if (Mayor < ArrayMayor[num2]){
+                Mayor = ArrayMayor[num2];
+            }
+        }
+        document.write('El numero mayor era el: ' + Mayor);
+    </script>
+</body>
+</html>
