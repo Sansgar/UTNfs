@@ -1,0 +1,18 @@
+button{
+    border: 1px outset black;
+    height:100px;
+    width:100px;
+    cursor:pointer;
+    font-size: 18px;
+}
+.botonv {
+    background-color: green;
+}
+
+.botona {
+    background-color: blue;
+}
+
+.botonr {
+    background-color: red;
+}

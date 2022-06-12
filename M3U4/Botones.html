@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Botstyle.css">
+</head>
+<body>
+    <button class="botonr" onclick="cambiarcolor('rojo')">Cambiar color a rojo</button>
+    <button class="botona" onclick="cambiarcolor('azul')">Cambiar color a azul</button>
+    <button class="botonv" onclick="cambiarcolor('verde')">Cambiar color a verde</button>
+    <script>
+        function cambiarcolor(color) {
+            switch (color) {
+             case "rojo":
+             document.body.style.backgroundColor = "red";
+             break;
+             case "azul":
+             document.body.style.backgroundColor = "blue";
+             break;
+             case "verde":
+             document.body.style.backgroundColor = "green";
+             break;
+            }
+        }
+    </script>
+</body>
+</html>
