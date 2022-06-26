@@ -1,0 +1,19 @@
+
+header {
+    background-color: #fff;
+    background-image: url(../../public/IMG/banner.png);
+    height: 150px;
+    width: auto;
+    padding: 15px;
+    position: relative;
+  }
+  
+  header h1 {
+    color: gainsboro;
+    text-shadow: 2px 2px 2px black;
+    font-size: 45px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+  }

@@ -1,3 +1,5 @@
+import '../../styles/Header.css';
+
 const Header = (props) => {
     return (
         <header className="background-img">

@@ -1,7 +1,9 @@
+import '../styles/Contacto.css';
+
 const ContactoPage = (props) => {
     return (
         <main class="holder contacto">
-        <div>
+        <div class="datos">
             <h2>Contacto Rapido</h2>
             <form action="" method="" class="formulario">
                 <p>

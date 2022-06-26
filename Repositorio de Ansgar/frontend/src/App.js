@@ -25,7 +25,7 @@ function App() {
         <Route path='Nosotros' element={<NosotrosPage/>}/>
       </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer className="footer-pin"/>
     </div>
   );
 }

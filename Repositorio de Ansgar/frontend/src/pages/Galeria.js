@@ -1,3 +1,5 @@
+import '../styles/Galeria.css';
+
 const GaleriaPage = (props) => {
     return (
         <main class="holder">
