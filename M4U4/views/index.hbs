@@ -1,0 +1,19 @@
+<h1>{{title}}</h1>
+{{#if conocido}}
+<p> Seccion {{seccion}} en construccion. <br>
+    <a href="/salir">Salir</a> </p>
+
+{{/if}}
+
+{{#unless conocido}}
+<p>Por favor elegir seccion a ingresar:</p>
+<form action="/ingresar" method="post">
+    <input type="radio" name="seccion" value="Galeria">
+    <label for="Galeria">Galeria</label><br>
+    <input type="radio" name="seccion" value="Noticias">
+    <label for="Noticias">Noticias</label><br>
+    <input type="radio" name="seccion" value="Nosotros">
+    <label for="Nosotros">Nosotros</label> <br>
+    <input type="submit" value="Submit">
+</form>
+{{/unless}}
