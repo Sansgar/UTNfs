@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+  }
+  
+body {
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #787090; */
+}
+
+header {
+    background-color: #fff;
+    background-image: url(/images/banner.png);
+    height: 150px;
+    width: auto;
+    padding: 15px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    color: gainsboro;
+    text-shadow: 2px 2px 2px black;
+    font-size: 45px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: rgb(112, 128, 144);
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.holder {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+.himg {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    float: right;
+    border: solid 5px #709080;
+    border-radius: 10%;
+    box-shadow: 3px 2px 5px 1px rgba(112, 128, 144, 0.8);
+}
+
+h2 {
+    font-size: 34px;
+    color: rgb(112, 128, 144);
+    text-shadow: 2px 1px 3px black;
+
+}
+
+h3{
+    font-size: 26px;
+    color: rgb(112, 128, 144);
+    text-shadow: 2px 2px 3px black; 
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(112, 128, 144);
+    text-shadow: 2px 2px 3px black;
+}
+
+p {
+    font-size: 18px;
+}
+
+#containerback {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: solid 5px #709080;
+    width: 600px;
+    height: 600px;
+    border-radius: 20%;
+    background-image:  url(/images/dice.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #709080;
+    text-shadow: 1 0 1px #fff;
+    font-weight: bolder;
+}
+
+#containerlogin {
+    background-color: #fff;
+    border-radius: 20%;
+    margin: auto;
+    padding: 20px;
+    border: solid 5px #709080;
+    color: #709080;
+    text-shadow: 1 0 1px #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: rgb(112, 128, 144);
+    box-shadow: 0 0 0 0.2rem rgba(112, 128, 144, 0.5);
+} 
